@@ -1,0 +1,38 @@
+#hello{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.keemchoo{
+    text-align: center;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+h1,.you,#me{
+    text-align: center;
+    color: red;
+    text-decoration: line-through;
+}
+div p{
+    background-color: aqua;
+}
+div >p:hover{
+    background-color: rgb(225, 91, 174);
+}
+div +p{
+    background-color: rgb(190, 1, 1);
+}
+div ~p{
+    background-color: rgb(149, 47, 108);
+    text-align: left;
+}
+div ~p::first-letter{
+    color: rgb(246, 199, 143);/*pseudo element selector*/
+}
+a[target]{
+    background-color: rgb(165, 46, 104);
+}
+

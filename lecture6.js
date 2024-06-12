@@ -46,12 +46,12 @@
 // letter.add ("b");
 // letter.add ("a");
 // console.log(letter)
-class car{
-    constructor(name,price){
-        this.name=name;
-        this.price=price;
-    }
-}
+//class car{
+//    constructor(name,price){
+//        this.name=name;
+//        this.price=price;
+//    }
+//}
 // const mycar1 = new car("Mercedes",20000);
 // const mycar2 = new car("Porsche",50000);
 // console.log(mycar1,mycar2);
